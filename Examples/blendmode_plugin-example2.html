@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+		<title>jQuery BlendMode Demo</title>
+		<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="jquery.blendmode.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#blendImage").hide();
+				$("#sourceImage").blendmode({
+					"mode" : "pinlight",
+					"object" : $("#blendImage")
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<img id="sourceImage" src="sourceImage.png" width="450" height="267" alt="The source image for blending"/>
+		<img id="blendImage" src="blendImage.png" width="450" height="431" alt="Blend layer"/>
+	</body>
+</html>
