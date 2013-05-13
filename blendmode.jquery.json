@@ -1,0 +1,41 @@
+{
+	"name": "blendmode",
+	"title": "BlendMode jQuery Plugin",
+	"description": "This plugin will process a given HTML5 canvas or image element using one of the offered Blend-Modes by the Blend-Layer parameter.",
+	"keywords": [
+	"blendmode",
+	"HTML5",
+	"blend",
+	"layers",
+	"layer",
+	"image",
+	"manipulation",
+	"pixel",
+	"colors"
+	],
+	"version": "1.0.0",
+	"author": {
+		"name": "CodeWelt",
+		"url": "https://github.com/CodeWelt"
+		},
+	"maintainers": [
+		{
+		"name": "Linus Suter",
+		"email": "linus.suter@gmail.com",
+		"url": "http://codewelt.com"
+		}
+	],
+	"licenses": [
+		{
+		"type": "GPLv3",
+		"url": "http://www.gnu.org/licenses/gpl.html"
+		}
+	],
+	"bugs": "https://github.com/CodeWelt/BlendMode-jQuery-Plugin/issues",
+	"homepage": "https://github.com/CodeWelt/BlendMode-jQuery-Plugin",
+	"docs": "http://codewelt.com/blendmode",
+	"download": "http://codewelt.com/dl/jquery_blendmode_js.zip",
+	"dependencies": {
+		"jquery": ">=1.5"
+	}
+}
