@@ -14,7 +14,7 @@ $("#sourceImage").blendmode({
 	});
 
 HTML:
-<img id="sourceImage" src="sourceImage.png" alt="The source image for blending"/>
+img id="sourceImage" src="sourceImage.png" alt="The source image for blending"
 </pre>
 
 <b>Parameters</b>
