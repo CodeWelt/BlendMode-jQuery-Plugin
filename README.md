@@ -1,4 +1,4 @@
-<b>BlendMode jQuery Plugin</b>
+﻿<b>BlendMode jQuery Plugin</b>
 
 This plugin will process a given HTML5 canvas or image element using one of the offered Blend-Modes by the Blend-Layer parameter.
 The parameter can be a String specifying a solid color or HTML image and canvas element. The mode determines how the two defined layers will blend into each other. The result is saved, so running the script twice will reprocess the first result. Two simple examples are part of the downloadable zip file.
